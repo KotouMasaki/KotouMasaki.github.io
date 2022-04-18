@@ -339,6 +339,10 @@ img {
   text-align: center;
 }
 
+.iframe{
+  max-width: 720px;
+}
+
 .article-body {
   max-width: 720px;
   margin: 0 auto;
@@ -379,7 +383,7 @@ img {
 
 /*media Queries 767
 ----------------------------------------------------*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 740px) {
   body {
     font-size: 14px;
   }
@@ -538,6 +542,10 @@ img {
     padding-left: .8em;
   }
 
+  .iframe{
+    max-width: 400px;
+  }
+  
   .article-body h3:not(:first-child) {
     margin-top: 30px;
   }

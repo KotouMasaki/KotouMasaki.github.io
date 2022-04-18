@@ -383,7 +383,7 @@ img {
 
 /*media Queries 767
 ----------------------------------------------------*/
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 770px) {
   body {
     font-size: 14px;
   }

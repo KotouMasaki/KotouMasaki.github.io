@@ -173,7 +173,7 @@ img {
 
 .slider_1{
   position:relative;
-  height:500px;
+  height:700px;
   margin:0 auto;
   padding:0 auto;
   text-align: center;
@@ -533,6 +533,10 @@ img {
   .mv-text {
     font-size: 14px;
     line-height: 1.7;
+  }
+  
+  .slider_1{
+    height:330px;
   }
 
   /* Works */

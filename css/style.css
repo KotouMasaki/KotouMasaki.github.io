@@ -150,8 +150,8 @@ img {
 .mv-container {
   position: absolute;
   right: 0;
-  height:87%;
-  width: 50%;
+  height:86%;
+  width: 40%;
   margin:0 auto;
   padding: 0 auto;
 }
@@ -163,8 +163,6 @@ img {
 }
 
 .mv-title {
-  /*position: relative;*/
-  top: 250px;
   font-size: 60px;
   font-weight: bold;
   line-height: 1.2;
@@ -172,9 +170,6 @@ img {
   letter-spacing: .1em;
 }
 .mv-subtitle {
-  /*position: relative;*/
-  top: 420px;
-  right: 160px;
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
@@ -190,8 +185,8 @@ img {
   position: absolute;
   left: 0px;
   top: 65px;
-  height:87%;
-  width: 50%;
+  height:86%;
+  width: 60%;
   margin: auto;
   padding:0 auto;
 }
@@ -202,6 +197,7 @@ img {
   left: 0px;
   right: 0px;
   bottom: 0px;
+  height: 840px;
   animation: change-img-anim 15s infinite;
 }
 

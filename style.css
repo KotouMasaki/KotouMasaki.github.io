@@ -140,21 +140,31 @@ img {
  メインビジュアル
 ---------------------------------*/
 .mv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  text-align: center;
 }
 
 .mv-container {
-    position:relative;
-    top: 240px;
-    right: 120px;
-    padding: 0 40px;
+  position: absolute;
+  right: 0;
+  height:87%;
+  width: 50%;
+  margin:0 auto;
+  padding: 0 auto;
+}
+
+.mv-text_center{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 320px;
 }
 
 .mv-title {
+  /*position: relative;*/
+  top: 250px;
   font-size: 60px;
   font-weight: bold;
   line-height: 1.2;
@@ -162,11 +172,13 @@ img {
   letter-spacing: .1em;
 }
 .mv-subtitle {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 40px;
-    letter-spacing: .16em;
+  /*position: relative;*/
+  top: 420px;
+  right: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: .08em;
 }
 
 .mv-text {
@@ -175,18 +187,22 @@ img {
 }
 
 .slider_1{
-  position:relative;
-  height:700px;
-  margin:0 auto;
+  position: absolute;
+  left: 0px;
+  top: 65px;
+  height:87%;
+  width: 50%;
+  margin: auto;
   padding:0 auto;
-  text-aligin: center;
 }
 
 .image{
   position: absolute;
-  width: 100%;
-  opacity: 0;
-  animation: change-img-anim 30s infinite;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  animation: change-img-anim 15s infinite;
 }
 
 .image:nth-of-type(1){
@@ -496,11 +512,10 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 70vh;
+    height: 75vh;
   }
 
   .mv-container {
-  width:200px;
     padding: 0 20px;
   }
 

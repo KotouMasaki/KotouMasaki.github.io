@@ -140,15 +140,18 @@ img {
  メインビジュアル
 ---------------------------------*/
 .mv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 85vh;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
 }
 
 .mv-container {
-  padding: 0 40px;
+    position:relative;
+    top: 240px;
+    right: 120px;
+    padding: 0 40px;
 }
 
 .mv-title {
@@ -159,11 +162,11 @@ img {
   letter-spacing: .1em;
 }
 .mv-subtitle {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-  margin-bottom: 40px;
-  letter-spacing: .08em;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: .16em;
 }
 
 .mv-text {
@@ -172,27 +175,18 @@ img {
 }
 
 .slider_1{
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 450px;
-  margin: auto;
-  height: 640px;
-  width: 360px;
+  position:relative;
+  height:700px;
+  margin:0 auto;
+  padding:0 auto;
+  text-aligin: center;
 }
 
 .image{
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  margin: auto;
-  height: 800px;
-  width: 360px;
+  width: 100%;
   opacity: 0;
-  animation: change-img-anim 15s infinite;
+  animation: change-img-anim 30s infinite;
 }
 
 .image:nth-of-type(1){
@@ -502,10 +496,11 @@ img {
 
   /*  メインビジュアル */
   .mv {
-    height: 75vh;
+    height: 70vh;
   }
 
   .mv-container {
+  width:200px;
     padding: 0 20px;
   }
 
@@ -523,13 +518,7 @@ img {
   }
   
   .slider_1{
-    width: 320px;
-    height: 180px;
-  }
-
-  .image{
-    width: 320px;
-    height: 180px;
+    height:330px;
   }
 
   /* Works */

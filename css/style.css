@@ -368,7 +368,7 @@ img {
 
 .article-body {
   max-width: 720px;
-  margin: 0 auto;
+  margin: 70px auto;
   margin-bottom: 80px;
 }
 
@@ -400,9 +400,23 @@ img {
   margin-bottom: 30px;
 }
 
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.article-img img{
+    border: 1px solid #e6e6e6;
+    margin-top:30px;
+    margin-left:150px;
+}
+
 .home-link {
   text-align: center;
 }
+
+
 
 /*media Queries 767
 ----------------------------------------------------*/

@@ -418,7 +418,7 @@ img {
 
 /*media Queries 767
 ----------------------------------------------------*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   body {
     font-size: 14px;
   }
